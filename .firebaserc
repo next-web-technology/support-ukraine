@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "ununifi-node-monitor",
+    "ununifi": "ununifi-node-monitor",
+    "ununifi-test": "ununifi-node-monitor-test"
+  },
+  "targets": {}
+}
