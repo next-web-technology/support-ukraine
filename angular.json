@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "cosmos-node-monitor": {
+    "support-ukraine-nwt": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/cosmos-node-monitor",
+            "outputPath": "dist/support-ukraine-nwt",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -105,16 +105,16 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "cosmos-node-monitor:build:production"
+              "browserTarget": "support-ukraine-nwt:build:production"
             },
             "ununifi-test": {
-              "browserTarget": "cosmos-node-monitor:build:ununifi-test"
+              "browserTarget": "support-ukraine-nwt:build:ununifi-test"
             },
             "ununifi": {
-              "browserTarget": "cosmos-node-monitor:build:ununifi"
+              "browserTarget": "support-ukraine-nwt:build:ununifi"
             },
             "development": {
-              "browserTarget": "cosmos-node-monitor:build:development"
+              "browserTarget": "support-ukraine-nwt:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -122,7 +122,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "cosmos-node-monitor:build"
+            "browserTarget": "support-ukraine-nwt:build"
           }
         },
         "test": {
@@ -146,7 +146,7 @@
       }
     }
   },
-  "defaultProject": "cosmos-node-monitor",
+  "defaultProject": "support-ukraine-nwt",
   "cli": {
     "defaultCollection": "@angular-eslint/schematics"
   }

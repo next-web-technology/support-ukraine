@@ -8,7 +8,7 @@
         </label>
       </div>
       <div class="flex-1 px-2 mx-2">
-        <span class="text-lg font-bold">Cosmos Node Monitor</span>
+        <span class="text-lg font-bold">Support Ukraine</span>
       </div>
       <div class="flex-none hidden lg:block">
         <ul class="menu horizontal">
@@ -24,18 +24,6 @@
       <router-outlet></router-outlet>
     </div>
     <footer class="footer-center sticky bottom-0 bg-base-300">
-      <div *ngIf="matchChain">
-        <span class="footer-title">Chain Info</span>
-        <a href="{{ matchChain.officialWebsiteLink }}"
-          ><fa-icon [icon]="matchChain.officialWebsiteIcon"></fa-icon>Chain</a
-        >
-        <a href="{{ matchChain.twitterLink }}"
-          ><fa-icon [icon]="matchChain.twitterIcon"></fa-icon>Twitter</a
-        >
-        <a href="{{ matchChain.githubLink }}"
-          ><fa-icon [icon]="matchChain.githubIcon"></fa-icon>GitHub</a
-        >
-      </div>
       <div>
         <span class="footer-title">{{ developerInfo.name }}</span>
         <a *ngFor="let link of developerInfo.links" href="{{ link.link }}">

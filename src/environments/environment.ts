@@ -4,17 +4,16 @@
 
 export const environment = {
   production: false,
-  name: 'UnUniFi',
-  networkType: 'Testnet',
   firebase: {
-    apiKey: 'AIzaSyB9CWDdYBcOlLBkCzqfOMZz3J09cEtGRnE',
-    authDomain: 'ununifi-node-monitor-test.firebaseapp.com',
-    projectId: 'ununifi-node-monitor-test',
-    storageBucket: 'ununifi-node-monitor-test.appspot.com',
-    messagingSenderId: '1095192031033',
-    appId: '1:1095192031033:web:79fff9cb6de035caca82e8',
-    measurementId: 'G-T3T6PV52YR',
+    apiKey: 'AIzaSyA2yFhKmKJsv5v-Pa87Ur4kG8PuSPZsO7g',
+    authDomain: 'support-ukraine-nwt.firebaseapp.com',
+    projectId: 'support-ukraine-nwt',
+    storageBucket: 'support-ukraine-nwt.appspot.com',
+    messagingSenderId: '613550690421',
+    appId: '1:613550690421:web:8e7449c167e6d85da2e83c',
+    measurementId: 'G-B7K9530SWL',
   },
+  useEmulator: true,
 };
 
 /*
