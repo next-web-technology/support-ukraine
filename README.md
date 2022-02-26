@@ -1,4 +1,4 @@
-# Cosmos Node Monitor
+# Support Ukraine
 
 [![CI Angular](https://github.com/next-web-technology/support-ukraine/actions/workflows/ci-angular.yml/badge.svg)](https://github.com/next-web-technology/support-ukraine/actions/workflows/ci-angular.yml)
 [![CI Firebase Functions](https://github.com/next-web-technology/support-ukraine/actions/workflows/ci-firebase-functions.yml/badge.svg)](https://github.com/next-web-technology/support-ukraine/actions/workflows/ci-firebase-functions.yml)
