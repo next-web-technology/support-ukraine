@@ -73,7 +73,7 @@ export const LEGAL_CURRENCIES: LegalCurrency[] = [
     purposeOfPayment: 'for crediting account 47330992708',
   },
   {
-    flagIconClass: 'fi fi-cn',
+    flagIconClass: 'fi fi-hk',
     currencyName: 'CNY',
     beneficiary: 'National Bank of Ukraine',
     beneficiaryBic: 'NBUA UA UX',
