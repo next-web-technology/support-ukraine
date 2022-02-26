@@ -4,13 +4,5 @@ service cloud.firestore {
     match /{document=**} {
       allow read, write: if false;
     }
-    match /nodes/{domain} {
-      allow get, list: if true;
-      allow create, update, delete: if false;
-    }
-    match /validators/{domain} {
-      allow get, list: if true;
-      allow create, update, delete: if false;
-    }
   }
 }
