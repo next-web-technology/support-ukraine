@@ -48,48 +48,6 @@
               ],
               "outputHashing": "all"
             },
-            "ununifi-test": {
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
-                }
-              ],
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.ununifi-test.prod.ts"
-                }
-              ],
-              "outputHashing": "all"
-            },
-            "ununifi": {
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
-                }
-              ],
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.ununifi.prod.ts"
-                }
-              ],
-              "outputHashing": "all"
-            },
             "development": {
               "buildOptimizer": false,
               "optimization": false,
@@ -106,12 +64,6 @@
           "configurations": {
             "production": {
               "browserTarget": "support-ukraine-nwt:build:production"
-            },
-            "ununifi-test": {
-              "browserTarget": "support-ukraine-nwt:build:ununifi-test"
-            },
-            "ununifi": {
-              "browserTarget": "support-ukraine-nwt:build:ununifi"
             },
             "development": {
               "browserTarget": "support-ukraine-nwt:build:development"

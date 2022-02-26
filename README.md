@@ -1,16 +1,9 @@
 # Cosmos Node Monitor
 
-[![CI Angular](https://github.com/next-web-technology/cosmos-node-monitor/actions/workflows/ci-angular.yml/badge.svg)](https://github.com/next-web-technology/cosmos-node-monitor/actions/workflows/ci-angular.yml)
-[![CI Firebase Functions](https://github.com/next-web-technology/cosmos-node-monitor/actions/workflows/ci-firebase-functions.yml/badge.svg)](https://github.com/next-web-technology/cosmos-node-monitor/actions/workflows/ci-firebase-functions.yml)
-[![CD Firebase Hosting UnUniFi Test](https://github.com/next-web-technology/cosmos-node-monitor/actions/workflows/cd-firebase-hosting-ununifi-test.yml/badge.svg)](https://github.com/next-web-technology/cosmos-node-monitor/actions/workflows/cd-firebase-hosting-ununifi-test.yml)
-[![CD Firebase Functions UnUniFi Test](https://github.com/next-web-technology/cosmos-node-monitor/actions/workflows/cd-firebase-functions-ununifi-test.yml/badge.svg)](https://github.com/next-web-technology/cosmos-node-monitor/actions/workflows/cd-firebase-functions-ununifi-test.yml)
-
-## Project List
-
-| Chain   | Network Type     | Chain ID       | Node Monitor URL                                                                       |
-| ------- | ---------------- | -------------- | -------------------------------------------------------------------------------------- |
-| UnUniFi | Testnet          | ununifi-6-test | [https://ununifi-node-monitor-test.web.app](https://ununifi-node-monitor-test.web.app) |
-| UnUniFi | Mainnet(not yet) | -              | [https://ununifi-node-monitor.web.app](https://ununifi-node-monitor.web.app)           |
+[![CI Angular](https://github.com/next-web-technology/support-ukraine/actions/workflows/ci-angular.yml/badge.svg)](https://github.com/next-web-technology/support-ukraine/actions/workflows/ci-angular.yml)
+[![CI Firebase Functions](https://github.com/next-web-technology/support-ukraine/actions/workflows/ci-firebase-functions.yml/badge.svg)](https://github.com/next-web-technology/support-ukraine/actions/workflows/ci-firebase-functions.yml)
+[![CD Firebase Hosting](https://github.com/next-web-technology/support-ukraine/actions/workflows/cd-firebase-hosting.yml/badge.svg)](https://github.com/next-web-technology/support-ukraine/actions/workflows/cd-firebase-hosting.yml)
+[![CD Firebase Functions](https://github.com/next-web-technology/support-ukraine/actions/workflows/cd-firebase-functions.yml/badge.svg)](https://github.com/next-web-technology/support-ukraine/actions/workflows/cd-firebase-functions.yml)
 
 ## For Developer
 
