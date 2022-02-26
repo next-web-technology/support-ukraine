@@ -4,11 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start:ununifi-test": "ng serve --configuration ununifi-test",
-    "start:ununifi": "ng serve --configuration ununifi",
-    "build": "ng build",
-    "build:ununifi-test": "ng build --configuration ununifi-test",
-    "build:ununifi": "ng build --configuration ununifi",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
