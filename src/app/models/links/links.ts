@@ -17,6 +17,6 @@ export const DEVELOPER_LINKS: Link[] = [
   {
     icon: faGithub,
     name: 'GitHub',
-    link: 'https://github.com/next-web-technology/cosmos-node-monitor',
+    link: 'https://github.com/next-web-technology/support-ukraine',
   },
 ];
