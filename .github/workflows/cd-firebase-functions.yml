@@ -1,8 +1,8 @@
-name: CD Firebase Hosting UnUniFi
+name: CD Firebase Functions
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: [main]
 
 jobs:
   build:
@@ -20,6 +20,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
-      - run: npm run build:ununifi --if-present
-      - run: npm test  -- --watch=false --browsers=ChromeHeadless
-      - run: npx firebase deploy --project=ununifi --token=${{ secrets.FIREBASE_TOKEN }} --only hosting
+        working-directory: ./functions
+      - run: npm run build
+        working-directory: ./functions
+      - run: npx firebase deploy --project=support-ukraine-nwt --token=${{ secrets.FIREBASE_TOKEN }} --only functions
+        working-directory: ./functions
