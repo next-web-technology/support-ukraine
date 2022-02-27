@@ -1,0 +1,32 @@
+<div class="flex-1">
+  <span class="text-lg font-bold">Donate with Other Legal Currencies</span>
+</div>
+<div class="overflow-x-auto">
+  <table class="table w-full table-zebra">
+    <thead>
+      <tr>
+        <th *ngFor="let legalCurrencyLabel of legalCurrencyLabels">
+          {{ legalCurrencyLabel }}
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let legalCurrency of legalCurrencies">
+        <td>
+          <span class="{{ legalCurrency.flagIconClass }}"></span>
+        </td>
+        <td>{{ legalCurrency.currencyName }}</td>
+        <td>{{ legalCurrency.accountNumber }}</td>
+        <td>{{ legalCurrency.iban }}</td>
+        <td>{{ legalCurrency.sortCode }}</td>
+        <td>{{ legalCurrency.beneficiaryBankName }}</td>
+        <td>{{ legalCurrency.beneficiaryBankBic }}</td>
+        <td>{{ legalCurrency.beneficiaryBankAddress }}</td>
+        <td>{{ legalCurrency.purposeOfPayment }}</td>
+        <td>{{ legalCurrency.beneficiary }}</td>
+        <td>{{ legalCurrency.beneficiaryBic }}</td>
+        <td>{{ legalCurrency.beneficiaryAddress }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
