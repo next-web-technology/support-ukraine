@@ -1,0 +1,23 @@
+<div class="card">
+  <div class="card-body">
+    <div class="card-title">
+      Donate Crypto Currencies through Ukrainian Exchange Kuna
+    </div>
+    <div class="flex flex-wrap">
+      <ng-container *ngFor="let cryptoCurrency of cryptoCurrencies">
+        <div class="flex flex-col m-1">
+          <img
+            class="w-6 h-6"
+            src="/assets/currencies/{{ cryptoCurrency }}.svg"
+          />
+          <span>{{ cryptoCurrency.toUpperCase() }}</span>
+        </div>
+      </ng-container>
+    </div>
+    <p>
+      <a href="https://savelife.in.ua/en/donate/"
+        >https://my.kuna.io/en/kunaid-ukraine</a
+      >
+    </p>
+  </div>
+</div>
