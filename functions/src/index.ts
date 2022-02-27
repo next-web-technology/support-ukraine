@@ -9,7 +9,7 @@ export const helloWorld = functions
     memory: "128MB",
   })
   .region("asia-northeast1")
-  .pubsub.schedule("*/5 * * * *")
+  .pubsub.schedule("* 0 * * *")
   .onRun(() => {
     functions.logger.debug("helloWorld");
   });
